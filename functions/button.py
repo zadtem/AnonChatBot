@@ -9,7 +9,7 @@ def button_good_path_flow_start(update: Update, context: CallbackContext) -> Non
     context.user_data['cta'] = ""
     query = update.callback_query
     context.bot.send_message(
-        chat_id=update.effective_chat.id, text="መልካም ፥ በምን እንርዳዎት?", reply_markup=GOOD_PATH_KEYBOARD)
+        chat_id=update.effective_chat.id, text="Hello, How are you doing today?", reply_markup=GOOD_PATH_KEYBOARD)
     query.answer()
 
 
@@ -19,7 +19,7 @@ def button_good_path_flow_need_to_talk(update: Update, context: CallbackContext)
     context.user_data['cta'] = STR_ADMIN_NEED_TO_TALK
 
     context.bot.send_message(
-        chat_id=update.effective_chat.id, text=f"Connected to the {STR_ADMIN_NEED_TO_TALK} admin")
+        chat_id=update.effective_chat.id, text=f"Connected to the{STR_ADMIN_NEED_TO_TALK} admin")
     query.answer()
 
 
@@ -43,7 +43,7 @@ def button_problem_spiritual_crisis(update: Update, context: CallbackContext) ->
 
     query = update.callback_query
     context.bot.send_message(
-        chat_id=update.effective_chat.id, text=f"Connected to the {STR_ADMIN_SPIRITUAL_CRISIS} admin")
+        chat_id=update.effective_chat.id, text=f"Connected to the{STR_ADMIN_SPIRITUAL_CRISIS} admin")
     query.answer()
 
 
@@ -53,7 +53,7 @@ def button_problem_relationship(update: Update, context: CallbackContext) -> Non
 
     query = update.callback_query
     context.bot.send_message(
-        chat_id=update.effective_chat.id, text=f"Connected to the {STR_ADMIN_RELATIONSHIP} admin")
+        chat_id=update.effective_chat.id, text=f"Connected to the{STR_ADMIN_RELATIONSHIP} admin")
     query.answer()
 
 
@@ -63,7 +63,7 @@ def button_problem_psycological(update: Update, context: CallbackContext) -> Non
 
     query = update.callback_query
     context.bot.send_message(
-        chat_id=update.effective_chat.id, text=f"Connected to the {STR_ADMIN_PSYCOLOGICAL} admin")
+        chat_id=update.effective_chat.id, text=f"Connected to the{STR_ADMIN_PSYCOLOGICAL} admin")
     query.answer()
 
 
@@ -73,7 +73,7 @@ def button_problem_other(update: Update, context: CallbackContext) -> None:
 
     query = update.callback_query
     context.bot.send_message(
-        chat_id=update.effective_chat.id, text=f"Connected to the {STR_ADMIN_OTHER} admin")
+        chat_id=update.effective_chat.id, text=f"Connected to the{STR_ADMIN_OTHER} admin")
     query.answer()
 
 
@@ -83,7 +83,7 @@ def button_problem_addiction(update: Update, context: CallbackContext) -> None:
 
     query = update.callback_query
     context.bot.send_message(
-        chat_id=update.effective_chat.id, text=f"Connected to the {STR_ADMIN_ADDICTION} admin")
+        chat_id=update.effective_chat.id, text=f"Connected to the{STR_ADMIN_ADDICTION} admin")
     query.answer()
 
 
@@ -93,5 +93,5 @@ def button_problem_porn_addiction(update: Update, context: CallbackContext) -> N
 
     query = update.callback_query
     context.bot.send_message(
-        chat_id=update.effective_chat.id, text=f"Connected to the {STR_ADMIN_PORN_ADDICTION} admin")
+        chat_id=update.effective_chat.id, text=f"Connected to the{STR_ADMIN_PORN_ADDICTION} admin")
     query.answer()
