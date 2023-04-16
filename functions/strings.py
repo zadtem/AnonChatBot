@@ -11,7 +11,7 @@ GOOD_PATH_FLOW_START = "I'm doing good"
 GOOD_PATH_FLOW_NEED_TO_TALK = "I seek some guidance"
 GOOD_PATH_FLOW_WANT_TO_READ_THINGS = "Access resources"
 
-BAD_PATH_FLOW_START = "I want to talk to someone anonymously"
+BAD_PATH_FLOW_START = "talk to someone anonymously"
 BAD_PATH_FLOW_FOLLOWUP = "what's concerning you today?"
 
 PROBLEM_SPIRITUAL_CRISIS = "I just want to talk to someone"
