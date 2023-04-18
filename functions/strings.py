@@ -5,21 +5,21 @@
 """
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
-START_REPLY = "Hey how may I help you today?"
+START_REPLY = "Hello Angel❤️ \n How may I help you today? \n I want\n1. Information on SRHR\n2. To talk to someone anonymously"
 
-GOOD_PATH_FLOW_START = "I'm doing good"
+GOOD_PATH_FLOW_START = "1"
 GOOD_PATH_FLOW_NEED_TO_TALK = "I seek some guidance"
 GOOD_PATH_FLOW_WANT_TO_READ_THINGS = "Access resources"
 
-BAD_PATH_FLOW_START = "talk to someone anonymously"
-BAD_PATH_FLOW_FOLLOWUP = "what's concerning you today?"
+BAD_PATH_FLOW_START = "2"
+BAD_PATH_FLOW_FOLLOWUP = "What's concerning you today?\n \nA group of volunteers will reply to your message as soon as possible.\n \nI want to...\na. talk to someone  \nb. ask some questions \nc. report sexual assault\nd. talk with school counselor\ne. Feedback \nf. Other"
 
-PROBLEM_SPIRITUAL_CRISIS = "I just want to talk to someone"
-PROBLEM_ADDICTION = "I want to ask some questions to know more"
-PROBLEM_PSYCOLOGICAL = "I want to report a sexual assault case"
-PROBLEM_PORN_ADDICTION = "I want contact info for other SCORA groups"
-PROBLEM_RELATIONSHIP = "Feedback"
-PROBLEM_OTHER = "Other"
+PROBLEM_SPIRITUAL_CRISIS = "a"
+PROBLEM_ADDICTION = "b"
+PROBLEM_PSYCOLOGICAL = "c"
+PROBLEM_PORN_ADDICTION = "d"
+PROBLEM_RELATIONSHIP = "e"
+PROBLEM_OTHER = "f"
 
 # KEYBOARDS
 
@@ -66,21 +66,21 @@ BAD_PATH_KEYBOARD = InlineKeyboardMarkup([
 
 ADMIN_BOT = 1606843992
 
-ADMIN_SPIRITUAL_CRISIS = 1606843992
-ADMIN_RELATIONSHIP = 1606843992
-ADMIN_PSYCOLOGICAL = 1606843992
-ADMIN_OTHER = 1606843992
-ADMIN_ADDICTION = 1606843992
-ADMIN_PORN_ADDICTION = 1606843992
+ADMIN_SPIRITUAL_CRISIS = 1813231809  # a. talk to someone, @ruhamahn
+ADMIN_RELATIONSHIP = 412672486      #e. feedback, @ba_zinga
+ADMIN_PSYCOLOGICAL = 1606843992      #c. sexual assault report, [null]
+ADMIN_OTHER = 1813231809             #f. other, @ruhamahn
+ADMIN_ADDICTION = 879236175         #b. ask some questions to know more, @mek1it
+ADMIN_PORN_ADDICTION = 1606843992    #d. school counselor, [null]
 
-STR_ADMIN_SPIRITUAL_CRISIS = ""
-STR_ADMIN_RELATIONSHIP = ""
-STR_ADMIN_PSYCOLOGICAL = ""
-STR_ADMIN_OTHER = ""
-STR_ADMIN_ADDICTION = ""
-STR_ADMIN_PORN_ADDICTION = ""
+STR_ADMIN_SPIRITUAL_CRISIS = "talk to someone"
+STR_ADMIN_RELATIONSHIP = "feedback"
+STR_ADMIN_PSYCOLOGICAL = "sexual assault report"
+STR_ADMIN_OTHER = "others"
+STR_ADMIN_ADDICTION = "questions"
+STR_ADMIN_PORN_ADDICTION = "school counselor"
 
-ADMIN_NEED_TO_TALK = 1606843992
+ADMIN_NEED_TO_TALK = 1813231809  #need some guidance, @ruhamahn
 STR_ADMIN_NEED_TO_TALK = ""
 
 CHANNEL_WANT_TO_READ_THINGS = "@SCORA_ECUSTA"
