@@ -27,4 +27,4 @@ else:
 
 
 # Admin list ( Telegram ids )
-ADMINS = []
+ADMINS = [1606843992]

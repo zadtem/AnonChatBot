@@ -1,6 +1,6 @@
 from functions.strings import *
 
-from telegram import ParseMode, Update
+from telegram import Update
 from telegram.ext import CallbackContext
 
 
@@ -16,7 +16,7 @@ def button_good_path_flow_start(update: Update, context: CallbackContext) -> Non
 def button_good_path_flow_need_to_talk(update: Update, context: CallbackContext) -> None:
     query = update.callback_query
     context.bot.send_message(
-        chat_id=update.effective_chat.id, text=f"<a href='https://t.me/Scora_Ecusta_Resources/13'>❤️About SCORA</a>\n<a href='https://t.me/Scora_Ecusta_Resources/14'>❤️SCORA IFMSA OBJECTIVES</a>\n<a href='https://t.me/Scora_Ecusta_Resources/15'>SCORA ETHIOPIA OBJECTIVES</a>\n<a href='https://t.me/Scora_Ecusta_Resources/16'>❤️ABOUT SCORA-ECUSTA</a>\n<a href='https://t.me/Scora_Ecusta_Resources/18'>❤️ABOUT SRHR</a>\n<a href='https://t.me/Scora_Ecusta_Resources/19'>❤️What's sexual health</a>\n<a href='https://t.me/Scora_Ecusta_Resources/20'>❤️What's sexual right</a>\n<a href='https://t.me/Scora_Ecusta_Resources/21'>❤️Information on HIV/AIDS</a>\n<a href='https://t.me/Scora_Ecusta_Resources/22'>❤️Facts about STI</a>\n<a href='https://t.me/Scora_Ecusta_Resources/23'>❤️STI transmission and control</a>\n", parse_mode = ParseMode.HTML)
+        chat_id=update.effective_chat.id, text=f"<a href='https://t.me/Scora_Ecusta_Resources/13'>❤️About SCORA</a>\n<a href='https://t.me/Scora_Ecusta_Resources/14'>❤️SCORA IFMSA OBJECTIVES</a>\n<a href='https://t.me/Scora_Ecusta_Resources/15'>SCORA ETHIOPIA OBJECTIVES</a>\n<a href='https://t.me/Scora_Ecusta_Resources/16'>❤️ABOUT SCORA-ECUSTA</a>\n<a href='https://t.me/Scora_Ecusta_Resources/18'>❤️ABOUT SRHR</a>\n<a href='https://t.me/Scora_Ecusta_Resources/19'>❤️What's sexual health</a>\n<a href='https://t.me/Scora_Ecusta_Resources/20'>❤️What's sexual right</a>\n<a href='https://t.me/Scora_Ecusta_Resources/21'>❤️Information on HIV/AIDS</a>\n<a href='https://t.me/Scora_Ecusta_Resources/22'>❤️Facts about STI</a>\n<a href='https://t.me/Scora_Ecusta_Resources/23'>❤️STI transmission and control</a>\n")
     query.answer()
 
 
